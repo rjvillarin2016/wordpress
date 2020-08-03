@@ -30,7 +30,7 @@
 		</div><br>
 		<div class="container" style="color: #fff; text-align: center;">
 			<p style="font-weight: normal; font-size: 12px;">Registered Address: TML House, 1A The Anchorage, Gosport, PO12 1LY   |   Registration No: 03860908<br>
-			Copyright 2019 K&K Hire Ltd | Privacy Policy | Website by Digi Toolbox12345</p>
+			Copyright 2019 K&K Hire Ltd | Privacy Policy | Website by Digi Toolbox1234</p>
 		</div>
 	</div>
 
