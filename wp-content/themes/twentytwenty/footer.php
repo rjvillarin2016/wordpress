@@ -12,48 +12,27 @@
  */
 
 ?>
-			<footer id="site-footer" role="contentinfo" class="header-footer-group">
-
-				<div class="section-inner">
-
-					<div class="footer-credits">
-
-						<p class="footer-copyright">&copy;
-							<?php
-							echo date_i18n(
-								/* translators: Copyright date format, see https://secure.php.net/date */
-								_x( 'Y', 'copyright date format', 'twentytwenty' )
-							);
-							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-						</p><!-- .footer-copyright -->
-
-						<p class="powered-by-wordpress">
-							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwenty' ) ); ?>">
-								<?php _e( 'Powered by WordPress', 'twentytwenty' ); ?>
-							</a>
-						</p><!-- .powered-by-wordpress -->
-
-					</div><!-- .footer-credits -->
-
-					<a class="to-the-top" href="#site-header">
-						<span class="to-the-top-long">
-							<?php
-							/* translators: %s: HTML character for up arrow */
-							printf( __( 'To the top %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-long -->
-						<span class="to-the-top-short">
-							<?php
-							/* translators: %s: HTML character for up arrow */
-							printf( __( 'Up %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
-							?>
-						</span><!-- .to-the-top-short -->
-					</a><!-- .to-the-top -->
-
-				</div><!-- .section-inner -->
-
-			</footer><!-- #site-footer -->
+	
+	<div class="row" style="background: linear-gradient(180deg, #2a2a2a 0%, #161616 100%);">
+		<div class="container">
+			<div class="col-md-4" style='text-align: center; color: #fff;'>
+				<h5>EMAIL</h5>
+				<p>info@kandkschooltransport.co.uk</p>
+			</div>
+			<div class="col-md-4" style='text-align: center; color: #fff;'>
+				<h5>PHONE</h5>
+				<p>023 80650650</p>
+			</div>
+			<div class="col-md-4" style='text-align: center; color: #fff;'>
+				<h5>SOCIAL</h5>
+				<p style="color: #000;background: #fff;width: 30px;margin: 0 auto;font-weight: bold;">f</p>
+			</div>
+		</div><br>
+		<div class="container" style="color: #fff; text-align: center;">
+			<p style="font-weight: normal; font-size: 12px;">Registered Address: TML House, 1A The Anchorage, Gosport, PO12 1LY   |   Registration No: 03860908<br>
+			Copyright 2019 K&K Hire Ltd | Privacy Policy | Website by Digi Toolbox</p>
+		</div>
+	</div>
 
 		<?php wp_footer(); ?>
 
