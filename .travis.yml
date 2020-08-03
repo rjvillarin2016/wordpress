@@ -1,0 +1,6 @@
+language: PHP
+jdk: 
+        - vscode
+notifications:
+        email: rj.villarin2016@gmail.com
+
